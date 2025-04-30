@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thais Manso Ávila Bellintani - Currículo Online</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #ff7a00;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+    }
+
+    nav {
+      background-color: #ddd;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ff7a00;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      border-left: 5px solid #ff7a00;
+      padding-left: 0.5rem;
+      color: #444;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #ff7a00;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    .print-btn {
+      display: block;
+      text-align: center;
+      margin: 1rem auto;
+    }
+
+    .print-btn button {
+      background-color: #ff7a00;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    @media print {
+      nav, .print-btn, footer {
+        display: none;
+      }
+      body {
+        background-color: white;
+        color: black;
+      }
+      section {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Thais Manso Ávila Bellintani</h1>
+  <p>𝔑𝔢𝔲𝔯𝔬𝔭𝔰𝔦𝔠𝔬𝔩𝔬𝔤𝔞 / Psicóloga Cognitivo-Comportamental</p>
+  <p>CRP 06/177.958</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre Mim</a>
+  <a href="#projetos">Trabalhos Publicados</a>
+  <a href="#capacitacoes">Capacitações</a>
+  <a href="#experiencia">Experiência</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<div class="print-btn">
+  <button onclick="window.print()">Imprimir / Salvar como PDF</button>
+</div>
+
+<section id="sobre">
+  <h2>Sobre Mim</h2>
+  <div class="card">
+    <p>Pós-graduada em Gestão de Pessoas pela Fundação Getúlio Vargas, trabalhei 18 anos na aviação comercial...<br>
+    [...]<br>
+    Membro voluntário do Núcleo do Autismo da APAE Mirassol/SP com a realização de avaliação neuropsicológica em crianças da instituição.</p>
+  </div>
+</section>
+
+<section id="projetos">
+  <h2>Trabalhos Publicados</h2>
+  <div class="card">
+    <ul>
+      <li>ESP. AVALIAÇÃO NEUROPSICOLÓGICA | IPECS 2022 – ALTAS HABILIDADES SUPERDOTAÇÃO - ESTUDO DE CASO</li>
+      <li>POS GRADUAÇÃO - GESTÃO DE PESSOAS | FGV 2008 – CONSULTORIA INTERNA DE RH EM EMPRESAS DE GRANDE PORTE</li>
+      <li>GRADUAÇÃO PSICOLOGIA | UNIP 2022 – EQUIPE MULTIDISCIPLINAR E A IMPORTÂNCIA DA COMUNICAÇÃO EM PACIENTES ONCOLÓGICOS</li>
+      <li>GRADUAÇÃO TURISMO E HOTELARIA | UNIVALI 2000 – POSICIONAMENTO DE MERCADO DA INTERBRASIL</li>
+    </ul>
+  </div>
+</section>
+
+<section id="capacitacoes">
+  <h2>Capacitações</h2>
+  <div class="card">
+    <ul>
+      <li>ESP. AVALIAÇÃO NEUROPSICOLÓGICA | IPECS 2022</li>
+      <li>ESP. TERAPIA COGNITIVO-COMPORTAMENTAL (EM CURSO) | IPECS</li>
+      <li>REABILITAÇÃO COGNITIVA | REAB IPECS 2024</li>
+      <li>TERAPIA ABA | IPECS/ NEXO 2023</li>
+      <li>TRANSTORNOS MENTAIS: DIAGNÓSTICO E TRATAMENTO | IPECS 2018</li>
+      <li>PSICOLOGIA DA SAÚDE | IPECS 2019</li>
+      <li>POS GRADUAÇÃO - GESTÃO DE PESSOAS | FGV 2008</li>
+      <li>GRADUAÇÃO PSICOLOGIA | UNIP 2022</li>
+      <li>GRADUAÇÃO TURISMO E HOTELARIA | UNIVALI 2000</li>
+    </ul>
+  </div>
+</section>
+
+<section id="experiencia">
+  <h2>Experiência Profissional</h2>
+  <div class="card">
+    <p>Experiência de 18 anos na aviação comercial como comissária de voo e em funções administrativas estratégicas...</p>
+    <p>Atuação em recrutamento, seleção, treinamento de tripulação, fatores humanos e segurança operacional. Formação em auditoria IOSA pela IATA.</p>
+    <p>Experiência clínica em contexto hospitalar e unidades básicas de saúde durante a pandemia. Especialização em Neuropsicologia Clínica e atuação em avaliação de crianças com TEA.</p>
+  </div>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <div class="card">
+    <p><strong>WhatsApp:</strong> (17) 98206-1214</p>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/thais_neuropsicologa" target="_blank">@thais_neuropsicologa</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>Thais Manso Ávila Bellintani – CRP 06/177.958</p>
+  <p>© 2025 – Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
